@@ -128,7 +128,6 @@
 </template>
 
 <script>
-require('@/assets/js/app.js');
 import axios from "axios";
 export default {
     name: "TemplateOneView",
@@ -188,6 +187,7 @@ export default {
     mounted() {
         this.getTemplate();
         this.getIpInfo();
+        require('@/assets/js/app.js');
         // this.startTracking();
     },
     methods: {
