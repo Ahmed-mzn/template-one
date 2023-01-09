@@ -128,6 +128,7 @@
 </template>
 
 <script>
+require('@/assets/js/app.js');
 import axios from "axios";
 export default {
     name: "TemplateOneView",
